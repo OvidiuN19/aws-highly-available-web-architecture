@@ -83,13 +83,17 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## Application Load Balancer (Browser Test)
 
+
 ![ALB](screenshots/ALB-browser.png)
+
 
 - Application Load Balancer is working
 - Traffic is distributed across instances
 - Response confirms correct routing (web-server-2)
 
+
   ## Target Group (2 Healthy Instances)
+
 
 ![Target Group](screenshots/ALB-targed-groups.png)
 
