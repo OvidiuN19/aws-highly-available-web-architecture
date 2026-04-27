@@ -77,3 +77,87 @@ Internet → ALB → EC2 (Auto Scaling Group) → RDS
 
 ✅ Conclusion
 This project simulates a real-world AWS architecture suitable for entry-level cloud engineering roles.
+
+
+  Screenshots
+
+  ## Application Load Balancer (Browser Test)
+
+![ALB](screenshots/ALB-browser.png)
+
+- Application Load Balancer is working
+- Traffic is distributed across instances
+- Response confirms correct routing (web-server-2)
+
+  ## Target Group (2 Healthy Instances)
+
+![Target Group](screenshots/ALB-targed%20groups.png)
+
+- 2 instances registered in the target group
+- Both are healthy
+- Health checks are working correctly
+
+  ## EC2 Instances
+
+![EC2](screenshots/EC2.png)
+
+- 2 EC2 instances running
+- Deployed across different Availability Zones
+- Used for high availability
+
+  ## EC2 Details (IAM Role)
+
+![EC2 IAM](screenshots/attach%20IAM%20role.png)
+
+- EC2 instance with IAM Role attached
+- Secure access to AWS services (S3)
+- No access keys used
+
+  ## S3 Access via IAM Role (CLI Test)
+
+![S3 IAM](screenshots/S3-IAM%20ROLE.png)
+
+- Access to S3 from EC2 via IAM Role
+- File uploaded using AWS CLI
+- Confirms correct permissions
+
+  ## Bastion Host (SSH Access)
+
+![SSH](screenshots/SSH-Key.png)
+
+- SSH connection to bastion host
+- Secure entry point into the VPC
+- Used to access private resources
+
+  ## SSH ProxyCommand (Bastion → Private Instance)
+
+![SSH Proxy](screenshots/SSH-NAT%20test.png)
+
+- Access to private instance via bastion
+- Using ProxyCommand
+- No direct internet exposure
+
+  ## NAT Gateway Test (Ping / Curl)
+
+![NAT Test](screenshots/SSH-NAT%20test.png)
+
+- Private instance has internet access
+- Tested using ping / curl
+- Outbound traffic via NAT Gateway
+
+
+ ## RDS (MySQL Database)
+
+![RDS](screenshots/RDS.png)
+
+- MySQL database configured
+- Deployed inside VPC
+- Access controlled via security group
+
+ ## VPC and Subnets
+
+![VPC](screenshots/VPC-subnets.png)
+
+- Custom VPC configured
+- Public and private subnets
+- Separate routing (public / private)
