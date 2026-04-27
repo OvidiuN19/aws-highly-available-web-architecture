@@ -25,8 +25,7 @@ Internet → ALB → EC2 (Auto Scaling Group) → RDS
 🖥️ Compute
     • EC2 instances (Amazon Linux 2023)
     • Nginx installed via User Data
-    • Managed by Auto Scaling Group
-    • Self-healing infrastructure
+    • Instances launched via Launch Template
 
 ⚖️ Load Balancer
     • Application Load Balancer (public)
@@ -34,9 +33,9 @@ Internet → ALB → EC2 (Auto Scaling Group) → RDS
     • Health checks configured
 
 🔄 Auto Scaling
-    • Launch Template used
+    • Auto Scaling Group used for high availability
     • Min: 1 / Max: 2
-    • Automatic instance replacement
+    • Automatic instance replacement (self-healing)
 
 🗄️ Database
     • Amazon RDS (MySQL)
