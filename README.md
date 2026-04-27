@@ -5,7 +5,7 @@ AWS project demonstrating high availability, load balancing, auto scaling and se
 See full explanation: [Architecture Explanation](architecture-explanation.md)
 
 AWS Highly Available Web Architecture
-📌 Overview
+Overview
 This project demonstrates a production-style AWS architecture focused on high availability, scalability, and security best practices.
 
 🏗️ Architecture
