@@ -83,7 +83,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## Application Load Balancer (Browser Test)
 
-![ALB](screenshots/ALB-browser.png)
+![ALB](ALB-browser.png)
 
 - Application Load Balancer is working
 - Traffic is distributed across instances
@@ -91,7 +91,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## Target Group (2 Healthy Instances)
 
-![Target Group](screenshots/ALB-targed%20groups.png)
+![Target Group](ALB-targed%20groups.png)
 
 - 2 instances registered in the target group
 - Both are healthy
@@ -99,7 +99,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## EC2 Instances
 
-![EC2](screenshots/EC2.png)
+![EC2](EC2.png)
 
 - 2 EC2 instances running
 - Deployed across different Availability Zones
@@ -107,7 +107,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## EC2 Details (IAM Role)
 
-![EC2 IAM](screenshots/attach%20IAM%20role.png)
+![EC2 IAM](attach%20IAM%20role.png)
 
 - EC2 instance with IAM Role attached
 - Secure access to AWS services (S3)
@@ -115,7 +115,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## S3 Access via IAM Role (CLI Test)
 
-![S3 IAM](screenshots/S3-IAM%20ROLE.png)
+![S3 IAM](S3-IAM%20ROLE.png)
 
 - Access to S3 from EC2 via IAM Role
 - File uploaded using AWS CLI
@@ -123,7 +123,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## Bastion Host (SSH Access)
 
-![SSH](screenshots/SSH-Key.png)
+![SSH](SSH-Key.png)
 
 - SSH connection to bastion host
 - Secure entry point into the VPC
@@ -131,7 +131,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## SSH ProxyCommand (Bastion → Private Instance)
 
-![SSH Proxy](screenshots/SSH-NAT%20test.png)
+![SSH Proxy](SSH-NAT%20test.png)
 
 - Access to private instance via bastion
 - Using ProxyCommand
@@ -139,7 +139,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## NAT Gateway Test (Ping / Curl)
 
-![NAT Test](screenshots/SSH-NAT%20test.png)
+![NAT Test](SSH-NAT%20test.png)
 
 - Private instance has internet access
 - Tested using ping / curl
@@ -148,7 +148,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
  ## RDS (MySQL Database)
 
-![RDS](screenshots/RDS.png)
+![RDS](RDS.png)
 
 - MySQL database configured
 - Deployed inside VPC
@@ -156,7 +156,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
  ## VPC and Subnets
 
-![VPC](screenshots/VPC-subnets.png)
+![VPC](VPC-subnets.png)
 
 - Custom VPC configured
 - Public and private subnets
