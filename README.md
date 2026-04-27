@@ -79,7 +79,7 @@ Internet → ALB → EC2 (Auto Scaling Group) → RDS
 This project simulates a real-world AWS architecture suitable for entry-level cloud engineering roles.
 
 
-  Screenshots
+  ## Screenshots
 
   ## Application Load Balancer (Browser Test)
 
