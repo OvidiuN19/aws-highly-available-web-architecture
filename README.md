@@ -17,8 +17,8 @@ Internet → ALB → EC2 (Auto Scaling Group) → RDS
 
 🌐 Networking
     • Custom VPC (10.0.0.0/16)
-    • 2 Public Subnets (ALB, EC2)
-    • 2 Private Subnets (RDS)
+    • 2 Public Subnets (ALB, Bastion)
+    • 2 Private Subnets (EC2, RDS)
     • Internet Gateway
     • Route Tables
 
