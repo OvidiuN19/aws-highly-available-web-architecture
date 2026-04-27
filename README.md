@@ -1,6 +1,14 @@
 # aws-highly-available-web-architecture
 AWS project demonstrating high availability, load balancing, auto scaling and secure networking
 
+
+## Architecture Diagram
+
+
+
+
+
+
 ## Detailed Architecture
 See full explanation: [Architecture Explanation](architecture-explanation.md)
 
@@ -84,7 +92,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
   ## Application Load Balancer (Browser Test)
 
 
-![ALB](screenshots/ALB-browser.png)
+  ![ALB](screenshots/ALB-browser.png)
 
 
 - Application Load Balancer is working
@@ -95,7 +103,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
   ## Target Group (2 Healthy Instances)
 
 
-![Target Group](screenshots/ALB-targed-groups.png)
+  ![Target Group](screenshots/ALB-targed-groups.png)
 
 - 2 instances registered in the target group
 - Both are healthy
@@ -103,7 +111,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## EC2 Instances
 
-![EC2](screenshots/EC2.png)
+  ![EC2](screenshots/EC2.png)
 
 - 2 EC2 instances running
 - Deployed across different Availability Zones
@@ -111,7 +119,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## EC2 Details (IAM Role)
 
-![EC2 IAM](screenshots/attach-IAM-role.png)
+  ![EC2 IAM](screenshots/attach-IAM-role.png)
 
 - EC2 instance with IAM Role attached
 - Secure access to AWS services (S3)
@@ -119,7 +127,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## S3 Access via IAM Role (CLI Test)
 
-![S3 IAM](screenshots/S3-IAM-ROLE.png)
+  ![S3 IAM](screenshots/S3-IAM-ROLE.png)
 
 - Access to S3 from EC2 via IAM Role
 - File uploaded using AWS CLI
@@ -127,7 +135,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## Bastion Host (SSH Access)
 
-![SSH](screenshots/SSH-Key.png)
+  ![SSH](screenshots/SSH-Key.png)
 
 - SSH connection to bastion host
 - Secure entry point into the VPC
@@ -135,7 +143,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## SSH ProxyCommand (Bastion → Private Instance)
 
-![SSH Proxy](screenshots/SSH-NAT-test.png)
+  ![SSH Proxy](screenshots/SSH-NAT-test.png)
 
 - Access to private instance via bastion
 - Using ProxyCommand
@@ -143,24 +151,24 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
   ## NAT Gateway Test (Ping / Curl)
 
-![NAT Test](screenshots/SSH-NAT-test.png)
+  ![NAT Test](screenshots/SSH-NAT-test.png)
 
 - Private instance has internet access
 - Tested using ping / curl
 - Outbound traffic via NAT Gateway
 
 
- ## RDS (MySQL Database)
+  ## RDS (MySQL Database)
 
-![RDS](screenshots/RDS.png)
+  ![RDS](screenshots/RDS.png)
 
 - MySQL database configured
 - Deployed inside VPC
 - Access controlled via security group
 
- ## VPC and Subnets
+  ## VPC and Subnets
 
-![VPC](screenshots/VPC-subnets.png)
+  ![VPC](screenshots/VPC-subnets.png)
 
 - Custom VPC configured
 - Public and private subnets
