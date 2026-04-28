@@ -5,7 +5,7 @@ AWS project demonstrating high availability, load balancing, auto scaling and se
 ## Architecture Diagram
 
 
-
+![Architecture](screenshots/architecture.png)
 
 
 
