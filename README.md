@@ -29,9 +29,8 @@ This project demonstrates a production-style AWS architecture focused on high av
 ## Architecture flow:
 
 
-Internet → ALB → EC2 (Auto Scaling Group) → RDS
-↓
-S3
+Internet → ALB → EC2 (Auto Scaling Group) → RDS  
+EC2 → S3
 
 
 ## Networking
