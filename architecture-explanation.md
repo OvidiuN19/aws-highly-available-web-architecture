@@ -5,7 +5,7 @@
 - ALB distributes traffic across EC2 instances in multiple Availability Zones
 - EC2 instances process requests (Nginx web server)
 - EC2 instances interact with RDS (MySQL) for dynamic data
-- EC2 instances upload/read objects from S3 using IAM Role
+- EC2 instances interact with S3 using an attached IAM Rolee
 - RDS is deployed in private subnets and not publicly accessible
 
 ### High Availability
