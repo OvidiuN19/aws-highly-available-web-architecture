@@ -32,6 +32,7 @@ This project demonstrates a production-style AWS architecture focused on high av
 Internet → ALB → EC2 (Auto Scaling Group) → RDS  
 EC2 → S3
 
+EC2 instances handle both application logic and interactions with storage services.
 
 ## Networking
 - Custom VPC (10.0.0.0/16)
