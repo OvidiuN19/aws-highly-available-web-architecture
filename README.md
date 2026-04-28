@@ -26,7 +26,7 @@ This project demonstrates a production-style AWS architecture focused on high av
 - S3 integration via IAM Role
 
 
-## Architecture flow:
+## Architecture Flow:
 
 
 Internet → ALB → EC2 (Auto Scaling Group) → RDS  
