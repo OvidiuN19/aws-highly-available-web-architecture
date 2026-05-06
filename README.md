@@ -1,6 +1,12 @@
 # aws-highly-available-web-architecture
 AWS project demonstrating high availability, load balancing, auto scaling and secure networking
 
+## Key skills demonstrated:
+- AWS VPC & networking
+- High availability architecture (Multi-AZ)
+- Load balancing (ALB)
+- Auto scaling
+- Linux system configuration
 
 ## Architecture Diagram
 
