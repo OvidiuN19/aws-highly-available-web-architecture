@@ -2,11 +2,13 @@
 AWS project demonstrating high availability, load balancing, auto scaling and secure networking
 
 ## Key skills demonstrated:
-- AWS VPC & networking
-- High availability architecture (Multi-AZ)
-- Load balancing (ALB)
-- Auto scaling
-- Linux system configuration
+- AWS VPC (public/private subnets)
+- High availability (Multi-AZ deployment)
+- Application Load Balancer (ALB)
+- Auto Scaling Group
+- RDS integration
+- IAM roles & secure access
+- Linux (RHEL) configuration
 
 ## Architecture Diagram
 
