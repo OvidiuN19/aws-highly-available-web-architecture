@@ -1,5 +1,5 @@
 # aws-highly-available-web-architecture
-AWS project demonstrating high availability, load balancing, auto scaling and secure networking
+AWS project showcasing a highly available and scalable architecture using EC2, ALB, Auto Scaling, RDS and secure VPC networking.
 
 ## Key skills demonstrated:
 - AWS VPC (public & private subnets)
