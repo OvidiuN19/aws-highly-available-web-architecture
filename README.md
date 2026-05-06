@@ -18,6 +18,7 @@ AWS project showcasing a highly available and scalable architecture using EC2, A
 - Implemented Auto Scaling Group for high availability
 - Integrated RDS for persistent storage
 - Used IAM roles for secure access (no hardcoded credentials)
+- - Configured NAT Gateway for secure outbound internet access from private subnets
 
 ## Architecture Diagram
 
