@@ -10,6 +10,15 @@ AWS project demonstrating high availability, load balancing, auto scaling and se
 - IAM roles for secure service access
 - Linux (RHEL) system configuration
 
+## Implementation Overview
+- Created custom VPC with public and private subnets
+- Configured Internet Gateway and route tables
+- Deployed EC2 instances in private subnets
+- Configured ALB in public subnets
+- Implemented Auto Scaling Group for high availability
+- Integrated RDS for persistent storage
+- Used IAM roles for secure access (no hardcoded credentials)
+
 ## Architecture Diagram
 
 
