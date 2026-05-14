@@ -213,7 +213,7 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 
 ![TEST-RDS](screenshots/connectmariaDB.png)
 
-- Connected to RDS instance from EC2 using MySQL client:  mysql -h <rds-endpoint> -u admin -p
+- Connected to RDS instance from EC2 using MySQL client:  mysql -h your-rds-endpoint -u admin -p
 - This confirms connectivity between EC2 and RDS through properly configured Security Group
 - Successfully executed queries:
 
