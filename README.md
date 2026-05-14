@@ -17,6 +17,7 @@ AWS project showcasing a highly available and scalable architecture using EC2, A
 - Configured ALB in public subnets
 - Implemented Auto Scaling Group for high availability
 - Integrated RDS for persistent storage
+- Validated EC2 to RDS connectivity using MySQL client (executed database and table creation queries)
 - Used IAM roles for secure access (no hardcoded credentials)
 - Configured NAT Gateway for secure outbound internet access from private subnets
 
