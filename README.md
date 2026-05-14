@@ -209,6 +209,21 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 - Deployed inside VPC
 - Access controlled via security group
 
+## RDS Connectivity Test
+
+![TEST-RDS](screenshots/connectmariaDB.png)
+
+-Connected to RDS instance from EC2 using MySQL client:
+mysql -h <endpoint> -u admin -p
+-Successfully executed queries:
+
+SHOW DATABASES;
+CREATE DATABASE testdb;
+CREATE TABLE users (...);
+
+
+<br>
+
 ## VPC and Subnets
 
 ![VPC](screenshots/VPC-subnets.png)
@@ -218,3 +233,5 @@ This project simulates a real-world AWS architecture suitable for entry-level cl
 - Custom VPC configured
 - Public and private subnets
 - Separate routing (public / private)
+
+
